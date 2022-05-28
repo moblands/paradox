@@ -137,8 +137,10 @@
     position: relative;
     z-index: 2;
       }
-      .bridge-tabs__tab:hover{background:rgb(207, 231, 230) text-decoration: none;}
-      
+      .bridge-tabs__tab:hover{background:rgb(207, 231, 230); text-decoration: none;}
+      .bridge-tabs:hover{text-decoration: none;}
+
+
 .small {
     text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
