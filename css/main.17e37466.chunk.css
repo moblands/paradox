@@ -30,6 +30,16 @@
     text-align: end;
     margin: auto 0 auto auto;
 }
+                #transfer,
+                #connect {
+                  margin-left: auto;
+                  margin-right: auto;
+                  display: block;
+                }
+                #transfer,
+                #transfer2 {
+                  display: none;
+                }
 #pricex {
     margin: 0;
     font-size: 1.25rem;
