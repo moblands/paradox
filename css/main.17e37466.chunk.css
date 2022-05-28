@@ -109,6 +109,22 @@
     top: 38px;
     flex-wrap: wrap;
    }
+   .mint-status{
+          font-family: "DM Sans",sans-serif;
+    border: 0 solid;
+    --tw-shadow: 0 0 transparent;
+    --tw-ring-inset: var(--tw-empty,/*!*/ /*!*/);
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgba(59,130,246,0.5);
+    --tw-ring-offset-shadow: 0 0 transparent;
+    --tw-ring-shadow: 0 0 transparent;
+    min-width: fit-content;
+    padding: 0 18px;
+    margin: 0;
+    font-size: 16px;
+    color: #00ff80;
+}
    .discord {
     margin-left:10px;
     margin-right:10px;
