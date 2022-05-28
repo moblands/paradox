@@ -54,7 +54,12 @@
    .blink {
     font-family:Modest;
     color:#889599;
-    font-size:70px!important
+    font-size:40px!important
+   }
+   .nonblink {
+    font-family:Modest;
+    color:#889599;
+    font-size:40px!important
    }
    .thank-you {
     font-family:Oxygen;
