@@ -26,6 +26,37 @@
     height:100%;
     width:100%
    }
+.small {
+    text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+    margin: 0;
+    font-weight: 400;
+    position: relative;
+    font-family: "Montserrat Bold";
+    color: #fff;
+    text-align: center;
+    border: none;
+    text-transform: capitalize;
+    cursor: pointer;
+    height: 50px;
+    font-size: 16px;
+    line-height: 20px;
+    min-height: 39px;
+    max-height: 39px;
+    padding: 0 24px;
+    min-width: 170px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #0084ff;
+    width: 100%;
+    white-space: nowrap;
+    max-width: unset!important;
+}
 #claim-text-wrapper {
     width: 524px;
     padding: 32px;
