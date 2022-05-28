@@ -180,6 +180,7 @@
 }
 #ape-number {
     display: flex;
+   color:#fff;
     box-sizing: border-box;
     margin-bottom: 15px;
     align-items: center;
