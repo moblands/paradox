@@ -30,6 +30,17 @@
     text-align: end;
     margin: auto 0 auto auto;
 }
+
+#minus, #plus {
+    position: relative;
+    color: rgb(241, 241, 241);
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
                 #transfer,
                 #connect {
                   margin-left: auto;
