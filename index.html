@@ -73,7 +73,10 @@
         <div id="stars3"></div>
         <div class="content"><img src="images/mett.png" alt="Logo" class="logo">
           <div id="mintstatus" style="margin-left: auto;margin-right: auto;"><h4 class="mint-status"><span style="color: #84b5ff;">STATUS: </span>Live ●</h4><h4 class="mint-status"><span style="color: #84b5ff;">SALE: </span><span class="white" style="color: #fff;"><img src="images/ETH-icon.png" width="14" alt="Ethereum on Polygon"> ETH 
- <img src="https://wallet-asset.matic.network/img/tokens/matic.svg" width="14" alt="Matic on Polygon"> MATIC</span></h4></div>
+ <img src="https://wallet-asset.matic.network/img/tokens/matic.svg" width="14" alt="Matic on Polygon"> MATIC</span></h4>
+          <h4 class="mint-status"><span style="color: #84b5ff;">Connected Wallet: </span><a id="useraddresslink" target="_blank" style="color:#747a8b"><span class="useraddress"></span></a></h4>
+          
+          </div>
           <div style="background-color: transparent; opacity: 1;"><span class="blink" style="color: rgb(136, 149, 153); font-size: 55px; font-style: normal; text-transform: none;">MINTED: <span id="GoDownNumber">106</span>/500</span></div>
 
           
@@ -250,16 +253,22 @@
         
 
        
-
         const userWallet = document.getElementsByClassName('useraddress')[0];
         const userWalletLink = document.getElementById('useraddresslink');
+       
         web3.eth.getAccounts().then(e => { 
         firstAccount = e[0];
+        if( typeof firstAccount === 'undefined' || firstAccount === null ){
+            console.log("User not logged in")
+            userWallet.innerText="Connect"
+            
+        } else {
         console.log("Address: " + firstAccount);
-        userWallet.innerText = firstAccount;
+        userWallet.innerText = firstAccount.substring(0, 5) + "..." +firstAccount.slice(38);
         userWallet.title = firstAccount;
-        userWalletLink.href = "https://etherscan.io/address/" + firstAccount;
-        }) 
+        userWalletLink.href = "https://bscscan.com/address/" + firstAccount;
+        }
+        })     
         
  
         var chainnamez = "";
