@@ -84,6 +84,31 @@
    .twitter {
     opacity:.65
    }
+   #mintstatus{
+          font-family: "DM Sans",sans-serif;
+    color: #fff;
+    border: 0 solid;
+    --tw-shadow: 0 0 transparent;
+    --tw-ring-inset: var(--tw-empty,/*!*/ /*!*/);
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgba(59,130,246,0.5);
+    --tw-ring-offset-shadow: 0 0 transparent;
+    --tw-ring-shadow: 0 0 transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(179.11deg,rgba(19,42,87,.8) -23.14%,rgba(28,14,47,.75) 166.95%);
+    border-radius: 6px;
+    height: fit-content;
+    padding: 8px 18px 10px;
+    max-width: 85%;
+    width: fit-content;
+    position: absolute;
+    top: 38px;
+    flex-wrap: wrap;
+   }
    .discord {
     margin-left:10px;
     margin-right:10px;
