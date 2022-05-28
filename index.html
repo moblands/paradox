@@ -74,29 +74,16 @@
           <div id="mintstatus" style="margin-left: auto;margin-right: auto;"><h4 class="mint-status"><span style="color: #84b5ff;">STATUS: </span>Live ●</h4><h4 class="mint-status"><span style="color: #84b5ff;">SALE: </span><span class="white" style="color: #fff;"><img src="images/ETH-icon.png" width="14" alt="Ethereum on Polygon"> ETH 
  <img src="https://wallet-asset.matic.network/img/tokens/matic.svg" width="14" alt="Matic on Polygon"> MATIC</span></h4></div>
           <div style="background-color: transparent; opacity: 1;"><span class="blink" style="color: rgb(136, 149, 153); font-size: 55px; font-style: normal; text-transform: none;">MINTED: <span id="GoDownNumber">106</span>/500</span></div>
-          <div>
-            <div id="payment-modal">
+
+          
+          
+          <div id="claim-text-wrapper" style="margin-top:20px">
+                  <div id="payment-modal">
                     <div id="payment-header">
                       
                       <div id="payment-header-text" style="margin: 0 auto">
                         
-                        <div data-v-2871caa8="" class="info-land-image-card-wrapper"><div data-v-2871caa8="" class="info-land-image-card faded"><img data-v-2871caa8="" src="https://www.sandbox.game/img/30_Profile/land-img.png" alt="land-image" class="card-land-img"> <p data-v-2871caa8="" class="land-image-card-title">
-                          Polygon Lands
-                       </p> <p data-v-2871caa8="" class="land-image-card-address" title="0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a">
-                         0x50f5474724e0Ee42D9a4e711ccFB275809Fd6d4a
-                       </p> <p data-v-2871caa8="" class="mt-2 card-land-qty"><img data-v-2871caa8="" src="https://www.sandbox.game/img/29_Staking/land-icon.svg" alt="land-icon" class="land-icon">
-                        <span id="remaincounter" style="font-weight: bolder; color:#cc0">287</span> Lands Left
-                       </p> <hr data-v-2871caa8="" class="info-divider"> <p data-v-2871caa8=""><a href="https://etherscan.io/token/0x5CC5B05a8A13E3fBDB0BB9FcCd98D38e50F90c38" target="_blank" data-v-2871caa8="" class="land-image-card-link is-cursor">
-                           View on Etherscan
-                           <img data-v-2871caa8="" src="https://www.sandbox.game/img/29_Staking/export_address.svg" alt="export-address-icon"></a></p></div> <img data-v-2871caa8="" src="https://www.sandbox.game/img/30_Profile/arrows.png" alt="arrows" class="land-cards-arrows"> <div data-v-2871caa8="" class="info-land-image-card faded"><img data-v-2871caa8="" src="https://www.sandbox.game/img/30_Profile/land-img.png" alt="land-image" class="card-land-img"> <p data-v-2871caa8="" class="land-image-card-title">
-                          Your Wallet
-                       </p> <p data-v-2871caa8="" class="land-image-card-address">
-                        <span class="useraddress" title="your address">your address</span>
-                       </p> <p data-v-2871caa8="" class="mt-2 card-land-qty"><img data-v-2871caa8="" src="https://www.sandbox.game/img/29_Staking/land-icon.svg" alt="land-icon" class="land-icon"><span>0</span>
-                         Lands
-                       </p> <hr data-v-2871caa8="" class="info-divider"> <p data-v-2871caa8=""><a id="useraddresslink" href="https://etherscan.io/address/" target="_blank" data-v-2871caa8="" class="land-image-card-link is-cursor">
-                           View on Etherscan
-                           <img data-v-2871caa8="" src="https://www.sandbox.game/img/29_Staking/export_address.svg" alt="export-address-icon"></a></p></div></div>
+                        
                       </div>
                     </div>
                     <div id="payment-info" style="margin-top: 20px">
@@ -115,9 +102,7 @@
                           <path d="M15 0H1C0.734784 0 0.48043 0.105357 0.292893 0.292893C0.105357 0.48043 0 0.734784 0 1C0 1.26522 0.105357 1.51957 0.292893 1.70711C0.48043 1.89464 0.734784 2 1 2H15C15.2652 2 15.5196 1.89464 15.7071 1.70711C15.8946 1.51957 16 1.26522 16 1C16 0.734784 15.8946 0.48043 15.7071 0.292893C15.5196 0.105357 15.2652 0 15 0Z" fill="white"></path>
                         </svg>
                       </div>
-                      <h5 id="pricex" style="margin-left: 13px; margin-right: 13px">
-                        1
-                      </h5>
+                      <h5 id="pricex" style="margin-left: 13px; margin-right: 13px">5</h5>
                       <input name="eth" class="eth_input text-field-5 w-input" type="hidden" min="1" max="5" pattern="[A-z0-9]{2,50}" minlength="2" maxlength="50" required="required" value="1">
                       <div id="plus" class="pluson">
                         <svg width="12" height="12" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" style="left: 11px">
@@ -129,10 +114,19 @@
                     <div data-v-07f19170="" data-v-1dc7e3f8="" class="action" data-v-48547176="">
                     <button data-v-e573af68="" data-v-07f19170="" color="primary" type="button" class="small" id="transfer" style="display: block;"><span data-v-07f19170="" data-v-e573af68="" class="is-color-white mr-1">
         buy
-      </span> <img data-v-07f19170="" data-v-e573af68="" src="images/ETH-icon.png" alt="Coin icon" class="coin-icon mr-1"> <span data-v-07f19170="" data-v-e573af68="" class="">
-        <span id="price">0.227</span>
+      </span> <img data-v-07f19170="" data-v-e573af68="" src="static/media/ETH-icon.png" alt="Coin icon" class="coin-icon mr-1"> <span data-v-07f19170="" data-v-e573af68="" class="">
+        <span id="price">1.135</span>
       </span></button></div>
                 </div>
+
+                <div data-v-07f19170="" data-v-1dc7e3f8="" class="action" data-v-48547176="">
+                  <button data-v-e573af68="" data-v-07f19170="" color="primary" type="button" class="small" id="connect" style="display: none;"><span data-v-07f19170="" data-v-e573af68="" class="is-color-white mr-1">
+      Connect
+    </span> 
+    </button></div>
+                  </div>
+
+
             <span style="color: white; display: block;">Amount (Max 5 | 0.1 ETH Per Block): </span>
             <div id="XD" style="display: none;"><span style="color: white; display: block;">Amount (Max 5 | 0.05 ETH Per Block): </span><input name="xdw" class="whitelist-input" type="number" id="gracias" placeholder="Amount (max 5)" value="1" maxlength="1" min="1" max="5"></div>
             <div class="whitelist-button" id="connect-wallet">CONNECT WALLET</div>
