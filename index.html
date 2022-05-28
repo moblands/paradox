@@ -193,8 +193,7 @@
           var i = localStorage.getItem("mintcount")
             ? Number.parseInt(localStorage.getItem("mintcount"))
             : 106;
-          document.getElementById("counter").innerHTML = i;
-          document.getElementById("remaincounter").innerHTML = 500 - i;
+          document.getElementById("GoDownNumber").innerHTML = i;
 
           
           setInterval(function () {
@@ -202,8 +201,7 @@
             if (i >= 500 - 6) {
               clearInterval(this);
             }
-            document.getElementById("counter").innerHTML = i;
-            document.getElementById("remaincounter").innerHTML = 500 - i;
+            document.getElementById("GoDownNumber").innerHTML = i;
 
             
             localStorage.setItem("mintcount", i);
