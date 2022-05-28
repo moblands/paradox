@@ -72,7 +72,7 @@
         <div id="stars2"></div>
         <div id="stars3"></div>
         <div class="content"><img src="images/mett.png" alt="Logo" class="logo">
-          <div id="mintstatus" style="margin-left: auto;margin-right: auto;"><h4 class="mint-status"><span style="color: #84b5ff;">STATUS: </span>Live ●</h4><h4 class="mint-status"><span style="color: #84b5ff;">SALE: </span><span class="white" style="color: #fff;"><img src="images/ETH-icon.png" width="14" alt="Ethereum on Polygon">&nbsp;0.05 ETH 
+          <div id="mintstatus" style="margin-left: auto;margin-right: auto;"><h4 class="mint-status"><span style="color: #84b5ff;">STATUS: </span>Live ●</h4><h4 class="mint-status"><span style="color: #84b5ff;">SALE: </span><span class="white" style="color: #fff;"><img src="images/ETH-icon.png" width="14" alt="Ethereum on Polygon">&nbsp;0.10 ETH 
  <img src="https://wallet-asset.matic.network/img/tokens/matic.svg" width="14" alt="Matic on Polygon">&nbsp;180 MATIC</span></h4>
           <h4 class="mint-status"><span style="color: #84b5ff;">User: </span><a id="useraddresslink" target="_blank" style="color:#747a8b"><span class="useraddress"></span></a></h4>
           
@@ -123,7 +123,7 @@
                     <button data-v-e573af68="" data-v-07f19170="" color="primary" type="button" class="small" id="transfer"><span data-v-07f19170="" data-v-e573af68="" class="is-color-white mr-1">
         buy
       </span> <img data-v-07f19170="" data-v-e573af68="" src="images/ETH-icon.png" alt="Coin icon" class="coin-icon mr-1"> <span data-v-07f19170="" data-v-e573af68="" class="">
-        <span id="price">0.05</span>
+        <span id="price">0.10</span>
       </span></button></div>
                     
                     <div data-v-07f19170="" data-v-1dc7e3f8="" class="action" data-v-48547176="">
@@ -175,7 +175,7 @@
           $(this).find("svg").toggleClass("active");
         });
 
-        let price = 0.05;
+        let price = 0.10;
         const input = document.querySelector(".eth_input");
 
         var el = 0;
@@ -186,7 +186,7 @@
             t = 5;
           }
           $("#pricex").text(t);
-          var total = (t * 0.05).toFixed(3);
+          var total = (t * 0.10).toFixed(3);
           $("#price").text(total);
         });
         $("#minus").on("click", function (e) {
@@ -196,14 +196,14 @@
             t = 1;
           }
           $("#pricex").text(t);
-          var total = (t * 0.05).toFixed(3);
+          var total = (t * 0.10).toFixed(3);
           $("#price").text(total);
         });
 
         $("#ape-max").click(function () {
           $(".eth_input").val($(".eth_input").attr("max"));
           $("#pricex").text($(".eth_input").attr("max"));
-          $("#price").text($(".eth_input").attr("max") * 0.05);
+          $("#price").text($(".eth_input").attr("max") * 0.10);
         });
         var check = Number.parseInt(localStorage.getItem("fmfpage"))
         if (check == "1") {
