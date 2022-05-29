@@ -252,7 +252,7 @@
    }
    .logo {
     width:500px;
-    margin-top:40px;
+    margin-top:0px;
     z-index:1000
    }
    .blink {
