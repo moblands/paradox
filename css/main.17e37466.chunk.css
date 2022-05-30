@@ -36,6 +36,7 @@
     background: rgb(31, 31, 31);
     border-radius: 10px;
     opacity: 90%;
+   color:#fff;
 }
 #minus, #plus {
     position: relative;
