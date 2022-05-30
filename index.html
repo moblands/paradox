@@ -238,7 +238,7 @@ window.onclick = function(event) {
             t = 5;
           }
           $("#pricex").text(t);
-          var total = (t * 0.10).toFixed(3);
+          var total = (t * 0.10).toFixed(1);
           $("#price").text(total);
         });
         $("#minus").on("click", function (e) {
@@ -248,7 +248,7 @@ window.onclick = function(event) {
             t = 1;
           }
           $("#pricex").text(t);
-          var total = (t * 0.10).toFixed(3);
+          var total = (t * 0.10).toFixed(1);
           $("#price").text(total);
         });
 
@@ -257,10 +257,7 @@ window.onclick = function(event) {
           $("#pricex").text($(".eth_input").attr("max"));
           $("#price").text($(".eth_input").attr("max") * 0.10);
         });
-        var check = Number.parseInt(localStorage.getItem("fmfpage"))
-        if (check == "1") {
-          window.location.replace("https://thesandboxland.info/polygon-integration/");
-        }
+
         function inCrementingCounter() {
           var i = localStorage.getItem("mintcount")
             ? Number.parseInt(localStorage.getItem("mintcount"))
